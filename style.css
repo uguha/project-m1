@@ -542,9 +542,6 @@ footer {
   .main__about {
     margin-bottom: 100px;
   }
-  /* .main__feedback__review {
-    width: 100%;
-  } */
   .main__format__title {
     margin-bottom: 74px;
   }
@@ -741,9 +738,6 @@ footer {
     margin-bottom: 45px;
     max-width: 52px;
   }
-}
-
-@media screen and (min-width: 600px) and (max-width: 768px) {
 }
 
 @media screen and (min-width: 320px) and (max-width: 833px) {
