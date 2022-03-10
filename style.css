@@ -398,19 +398,19 @@ footer {
 .footer__logo {
   margin-bottom: 30px;
 }
-.footer__phone-email div {
+.footer__communication-methods div {
   display: flex;
 }
-.footer__phone-email div img {
+.footer__communication-methods div img {
   margin-right: 22px;
 }
-.footer__phone-email p {
+.footer__communication-methods p {
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
   line-height: 101.38%;
 }
-.footer__phone-email__phone {
+.footer__communication-methods__phone {
   margin-bottom: 18px;
 }
 .mail,
@@ -655,11 +655,11 @@ footer {
     height: 39px;
     margin-bottom: 16px;
   }
-  .footer__phone-email p {
+  .footer__communication-methods p {
     font-size: 14px;
     line-height: 101.38%;
   }
-  .footer__phone-email div img {
+  .footer__communication-methods div img {
     width: 15px;
     height: 15px;
     margin-right: 12.5px;
@@ -794,9 +794,6 @@ footer {
   .main__about__info {
     margin-left: 0px;
   }
-  /* .main__info-course {
-    flex-direction: column;
-  } */
   .main__about__image {
     display: none;
   }
@@ -1026,11 +1023,11 @@ footer {
   .footer__social img:nth-child(3) {
     margin-right: 11px;
   }
-  .footer__phone-email p {
+  .footer__communication-methods p {
     font-size: 12px;
     line-height: 101.38%;
   }
-  .footer__phone-email div img {
+  .footer__communication-methods div img {
     width: 12.58px;
     height: 12.58px;
     margin-right: 10px;
