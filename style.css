@@ -251,7 +251,7 @@ footer {
 .main__program__continuation__card {
   background: #ffffff;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-  border-radius: 7%;
+  border-radius: 11%;
   width: 31.39%;
 }
 .main__program__continuation__card__text {
@@ -318,7 +318,7 @@ footer {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   width: 791px;
-  height: 451px;
+  /* height: 451px; */
   padding: 40px 46px 37px 45px;
 }
 .main__feedback__review__text {
@@ -384,6 +384,9 @@ footer {
   margin-top: 16px;
 }
 
+.footer__social {
+  display: flex;
+}
 .footer__social img:first-child {
   margin-right: 18px;
 }
@@ -426,15 +429,38 @@ footer {
   padding-bottom: 45px;
 }
 
+@media screen and (min-width: 1930px) {
+  .main__program__continuation__card__title {
+    font-size: 40px;
+  }
+  .main__program__continuation__card__time {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1279px) {
+  .another-container {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 834px) and (max-width: 1279px) {
+  .container,
+  .another-container {
+    width: 90%;
+  }
+  .main__about__info {
+    margin-left: 40px;
+  }
+}
+
 @media (max-width: 600px) {
   .container {
     max-width: 308px;
+    width: 90%;
   }
   h2 {
-    font-size: 6.5vw;
-  }
-  .main__program {
-    margin-bottom: 53px;
+    font-size: 7.1vw;
   }
   .main__program__continuation {
     justify-content: center;
@@ -486,5 +512,337 @@ footer {
 @media (max-width: 834px) {
   .container {
     max-width: 694px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .header__preview__img {
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 834px) {
+  .main__feedback__review {
+    width: 100%;
+  }
+  .card-blue {
+    margin-left: 0px;
+  }
+  .header__preview__img {
+    margin: 0px;
+  }
+  .main__format {
+    margin-bottom: 80px;
+  }
+  .main__format__title {
+    margin-bottom: 35px;
+  }
+  .main__format__cards {
+    flex-wrap: wrap;
+  }
+  .main__format__card {
+    margin-bottom: 33px;
+  }
+  .main__format__card:first-child {
+    margin-right: 30px;
+  }
+  .main__format__card:nth-child(2) {
+    margin-right: 30px;
+  }
+  .main__format__card:last-child {
+    margin-right: 30px;
+  }
+  .main__new__info {
+    margin-bottom: 65px;
+  }
+  .another-container {
+    width: 90%;
+  }
+  .main__program {
+    margin-bottom: 53px;
+  }
+  .main__about,
+  .container__card-blue,
+  .main__format,
+  .main__new__info,
+  .main__program__continuation {
+    margin-bottom: 100px;
+  }
+  .main__feedback {
+    padding-bottom: 100px;
+  }
+  .main__price {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .main__info-course {
+    flex-direction: column;
+  }
+  .main__info-course__image {
+    margin: 0 auto;
+    margin-top: 17px;
+  }
+  .main__about__image {
+    display: none;
+  }
+  .main__about__info {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .header__list__item:first-child {
+    min-width: 72px;
+    margin-right: 14px;
+  }
+  .header__list__item__img {
+    width: 10px;
+    height: 10px;
+  }
+  .header__list__item {
+    font-size: 10px;
+  }
+  .header__text__title {
+    font-size: 37px;
+    line-height: 101.38%;
+    margin-top: 10px;
+  }
+  .header__text__add {
+    font-size: 10px;
+    line-height: 150%;
+    max-width: 212px;
+  }
+  .header__preview {
+    flex-direction: column;
+  }
+  .header__preview__photo {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header__preview__img {
+    width: 142px;
+    height: 175px;
+  }
+  .container__card-blue {
+    margin-top: 39px;
+    margin-bottom: 80px;
+  }
+  .card-blue {
+    width: 225px;
+    height: 93px;
+    padding: 10px;
+  }
+  .card__text {
+    font-size: 11px;
+    line-height: 130%;
+  }
+  .card__author {
+    font-size: 10px;
+    line-height: 130%;
+  }
+  .header__list__item__img:first-child,
+  .header__list__item__img:last-child {
+    margin-right: 4.5px;
+  }
+  .header__list__item:nth-child(2) {
+    margin-right: 18px;
+  }
+  .main__info-course__title {
+    margin-bottom: 27.5px;
+  }
+  .info-course__text {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .info-course__text:last-child {
+    margin-top: 24px;
+  }
+  .main__info-course__image {
+    width: 171px;
+    height: 160px;
+  }
+  .main__about__info {
+    flex-flow: row wrap;
+  }
+  .main__about__text__title {
+    font-size: 12px;
+    line-height: 130%;
+    margin-bottom: 5px;
+  }
+  .main__about__text-add {
+    font-size: 10px;
+    line-height: 130%;
+  }
+  .main__about__text {
+    margin-bottom: 28px;
+  }
+  .main__about__text:first-child,
+  .main__about__text:nth-child(2) {
+    margin-right: 33px;
+  }
+  .main__about {
+    margin-bottom: 70px;
+  }
+  .main__format__cards {
+    flex-direction: column;
+  }
+  .main__format__card__title {
+    font-size: 12px;
+    line-height: 130%;
+    margin-bottom: 6px;
+  }
+  .main__format__card__text {
+    font-size: 10px;
+    line-height: 130%;
+  }
+  .main__format__card {
+    margin-bottom: 33px;
+  }
+  .main__format__card:first-child {
+    margin-right: 0px;
+    max-width: 180px;
+  }
+  .main__format__card:nth-child(2) {
+    margin-right: 0px;
+    max-width: 165px;
+  }
+  .main__format__card:last-child {
+    max-width: 159px;
+  }
+  /* .main__format {
+    margin-bottom: 80px;
+  } */
+  .main__new__info__title {
+    margin-bottom: 28px;
+  }
+  .main__new__info__list__item {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  /* .main__new__info {
+    margin-bottom: 65px;
+  } */
+  .main__feedback__title {
+    margin-bottom: 28px;
+  }
+  .main__feedback {
+    padding-top: 42px;
+    padding-bottom: 53px;
+  }
+  .main__feedback__review {
+    /* width: 100%; */
+    background: #ffffff;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+    padding: 18px 21px 14px 21px;
+  }
+  .main__feedback__review__text {
+    font-size: 10px;
+  }
+  .main__feedback__review__info-person {
+    margin-top: 14px;
+  }
+  .main__feedback__review__photo {
+    width: 80px;
+    height: 84px;
+  }
+  .main__feedback__review__information-name {
+    font-size: 14px;
+    line-height: 101.38%;
+    margin-bottom: 17px;
+  }
+  .main__feedback__review__information {
+    margin-left: 14px;
+  }
+  .fb.icon {
+    width: 14.91px;
+    height: 17.2px;
+  }
+  .main__price {
+    padding-top: 62px;
+    padding-bottom: 72px;
+  }
+  .main__price__title {
+    margin-bottom: 35px;
+  }
+  .main__price__value-text {
+    font-size: 12px;
+    line-height: 101.38%;
+  }
+  .main__price__value-price {
+    font-size: 37px;
+    line-height: 101.38%;
+    margin-top: 3px;
+    margin-bottom: 38px;
+  }
+  .main__price__information__card__title {
+    font-size: 12px;
+    line-height: 101.38%;
+  }
+  .main__price__information__card__text {
+    font-size: 10px;
+    line-height: 101.38%;
+    max-width: 140px;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  .footer__up {
+    padding-top: 23px;
+    flex-direction: column;
+  }
+  .footer__logo {
+    margin-bottom: 13px;
+    width: 54px;
+    height: 32px;
+  }
+  .footer__social {
+    margin-bottom: 47px;
+  }
+  .footer__social img {
+    width: 15px;
+    height: 15px;
+  }
+  .footer__social img:first-child {
+    margin-right: 8px;
+  }
+  .footer__social img:nth-child(2) {
+    margin-right: 10px;
+  }
+  .footer__social img:nth-child(3) {
+    margin-right: 11px;
+  }
+  .footer__phone-email p {
+    font-size: 12px;
+    line-height: 101.38%;
+  }
+  .footer__phone-email div img {
+    width: 12.58px;
+    height: 12.58px;
+    margin-right: 10px;
+  }
+  .footer__copyright {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    line-height: 101.38%;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  .main__feedback__review__info-person {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px) {
+  .main__feedback__review__info-person {
+    margin-top: 5px;
   }
 }
